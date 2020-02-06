@@ -1,0 +1,74 @@
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-top: solid 1px #000;
+}
+
+th {
+  font-size: 10px;
+  font-weight: normal;
+  color: #abacaf;
+  text-align: left;
+  padding: 5px;
+  top: 0;
+  position: sticky;
+  background-color: #273142;
+}
+
+td {
+  font-size: 11px;
+  color: #babdbf;
+  text-align: left;
+  padding: 5px 5px 4px;
+}
+
+.row-child {
+  font-size: 11px;
+  padding: 3px 5px 0;
+  opacity: 0.9;
+}
+
+tbody:nth-child(even) {
+  background: #182131
+}
+
+tbody:hover {
+  background: #000
+}
+
+th.number, 
+td.number {
+  text-align: right;
+}
+
+
+td.input {
+  color: #419ed0;
+}
+
+td.price {
+  color: #75cd22;
+  color: #debc05;
+}
+
+td.risk {
+  color: #cd7c38;
+}
+
+td.edited {
+  font-weight: bold;
+}
+
+.blotter_button-cell {
+  padding: 0;
+  max-width: 30px;
+}
+
+.blotter_button {
+  color:#afb2b5;
+  background: transparent;
+  display: flex;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}

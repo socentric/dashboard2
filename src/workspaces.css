@@ -1,0 +1,90 @@
+
+
+.workspaces.light {
+  background: #fff;
+}
+
+.workspace {
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  border: solid 1px #000;
+  border-left-width: 0px;
+  height: 100%;
+  transition: .5s;
+}
+
+.row {
+  position: relative;
+}
+
+.section {
+  flex: 1;
+  position: relative;  
+  overflow: auto;
+}
+
+.resizable-container {
+  height: 100%;
+  transition: .5s;
+}
+
+.resize-bar {
+  position: absolute;
+  height: var(--barSize);
+  width: var(--barSize);
+  top: 0;
+  left: 0;
+  background: rgb(27, 36, 49);
+  background-color: #000;
+}
+
+.resize-bar:hover,
+.resize-bar:active {
+  background-color: #000;
+}
+
+.light .resize-bar {
+  background: #fff;
+}
+
+.resize-bar-column {
+  height: 100%;
+  cursor: col-resize !important;
+}
+
+.resize-bar-row {
+  width: 100%;
+  cursor: row-resize !important;
+}
+
+.layout-column {
+  display: flex;
+  flex: 1 1 100%;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.layout-row {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: row;
+}
+
+.emptyworkspace {
+  text-align: center;
+  margin: auto;
+  color: #33aae0;
+  position: relative;
+  top:-40px;
+}
+
+.emptyworkspace_icon {
+  font-size: 140px;  
+}
+
+.emptyworkspace_message {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0; 
+}

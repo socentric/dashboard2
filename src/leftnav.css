@@ -1,0 +1,83 @@
+.leftnav {
+  background: #273142;
+  color: #c7d0dc87;
+  max-width: 130px;
+  min-width: 130px;
+  overflow: hidden;
+  height: 100%;
+  padding: 0;
+  border-right: solid 1px #000;
+  transition: .2s;
+  display: flex;
+}
+
+.leftnav_minimised {
+  max-width: 47px;
+  min-width: 47px;
+}
+
+.leftnav_hidden {
+  max-width: 0; 
+  min-width: 0;
+}
+
+.leftnav.light {
+  background: #147ba6;
+  color: #fff;
+}
+
+.leftnav_button {
+  font-size: 12px;
+  font-family: helvetica, sans-serif;
+  line-height: 1.95;
+  width: 100%;
+  background: transparent;
+  color: inherit;
+  display: flex;
+  padding: 6px 12px 5px;
+  border: 0;
+  margin: 0 0 7px;
+}
+
+.leftnav_button:hover,
+.leftnav_button-active {
+  color: #33aae0;
+}
+
+.leftnav_button-icon {
+  font-size: 22px;
+  margin: 0 12px 0 0;
+}
+
+.leftnav_button-widget {
+  font-size: 11px;
+  margin: 0;
+  padding: 2px;
+}
+
+.leftnav_button-widget:hover,
+.leftnav_button-active {
+  background: #000;
+}
+
+.button_icon-widget {
+  font-size: 16px;
+  margin: 1px;
+}
+
+.leftnav_section {
+  padding-top: 45px;
+  width: 47px;
+}
+
+.leftnav_section-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.leftnav_section-widgets {
+  color: #ffffffc7;
+  background: #000;
+  width: 100%;
+  padding-top: 54px;
+}
